@@ -170,13 +170,13 @@ Ces challenges m'ont permis de renforcer ma compréhension du fonctionnement des
 
     <strong>Analyse Forensique - 404CTF </strong>
 
-Dans le cadre du 404CTF, j’ai résolu un challenge en analyse forensique portant sur l’exfiltration de données via un périphérique USB à partir d’un fichier de capture réseau au format .pcapng.<br/>
+Résolution d'un challenge en analyse forensique portant sur l’exfiltration de données via un périphérique USB à partir d’un fichier de capture réseau au format .pcapng.<br/>
 Étapes clés de l’analyse : <br/>
 - Ouverture du fichier avec Wireshark et application d’un filtre usb pour cibler les communications USB <br/>
 - Identification de paquets URB Bulk OUT contenant des données suspectes via le champ Leftover Capture Data <br/>
 - Extraction des données brutes depuis ces paquets en les exportant au format binaire (.bin) pour conserver l'intégrité des octets <br/>
 - Conversion du contenu binaire en texte pour révéler le flag <br/>
-    <a href="">Write Up</a>
+    <a href="https://github.com/armadne/404CTF-Analyse-forensique">Write Up</a>
     </p>
 
     
