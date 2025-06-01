@@ -201,15 +201,17 @@ Ce challenge m’a permis de découvrir le traitement du signal, en particulier 
 
 <strong>TryHackMe Bounty Hacker (niveau : Facile)</strong> <br/>
 <p>
-  - Reconnaissance : Scan Nmap → FTP (vsFTPd 3.0.3) + SSH<br/>
-- FTP : Connexion anonyme → récupération de task.txt → user identifié : lin<br/>
-- Brute-force SSH : Hydra + locks.txt → mot de passe trouvé : RedDr4gonSynd1cat3<br/>
-- Connexion SSH : accès à l’utilisateur lin<br/>
-- Privesc : sudo -l → exécution autorisée de tar sans mot de passe<br/>
+  - Reconnaissance : Scan Nmap <br/>
+- utilisation protocole FTP pour récupérer un fichier "à distance" task.txt, pour identifié un user <br/>
+- Brute-force SSH : outil utilisé: Hydra pour trouver un mot de passe <br/>
+- Connexion SSH : accès à l’utilisateur<br/>
+- Privesc : <strong>sudo -l</strong> exécution autorisée de tar sans mot de passe<br/>
 - Élévation de privilèges <br/>
 - Objectif final : lecture du flag root.txt<br/>
 
- Compétences acquises : scan réseau, FTP, brute-force SSH, privilege escalation (sudo + tar)
+ Compétences acquises : scan réseau NMAP, FTP, brute-force SSH, privilege escalation<br/>
+   
+  <strong>* write-ups détaillé disponible sur demande</strong>
     
 </p>
   </div><br/>
