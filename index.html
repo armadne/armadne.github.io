@@ -177,13 +177,28 @@ Résolution d'un challenge en analyse forensique portant sur l’exfiltration de
 - Extraction des données brutes depuis ces paquets en les exportant au format binaire (.bin) pour conserver l'intégrité des octets <br/>
 - Conversion du contenu binaire en texte pour révéler le flag <br/>
     <a href="https://github.com/armadne/404CTF-Analyse-forensique">Write Up</a>
+    </p><br/>
+
+
+        <strong>Sécurité Matérielle - 404CTF </strong>
+
+    Dans ce challenge, j’ai dû reconstruire un signal audio à partir d’un fichier IQ (chall.iq) contenant des données complexes issues d’une transformée de Fourier. <br/>
+    L’objectif était de restaurer le signal temporel d’origine afin de l’écouter et de retrouver le flag audio.<br/>
+Étapes principales :<br/>
+- Chargement des données IQ (nombres complexes) avec numpy<br/>
+- Application de l’IFFT (Inverse Fast Fourier Transform) pour repasser du domaine fréquentiel au domaine temporel<br/><br/>
+    
+Traitement du signal :<br/>
+- Extraction de la partie réelle <br/>
+- Normalisation puis conversion en int16 <br/>
+- Sauvegarde du signal au format .wav (44100 Hz) à l’aide de scipy.io.wavfile.write<br/>
+- Écoute du fichier reconstruit pour identifier le flag audio<br/>
+Ce challenge m’a permis de découvrir le traitement du signal, en particulier les concepts de FFT/IFFT. <br/>
+    <strong>Bien que guidé à 70% dans la démarche</strong>, j’ai pris soin de comprendre chaque étape, ce qui m’a donné une base solide pour appréhender la manipulation de signaux numériques.
+    <a href="https://github.com/armadne/404CTF-SECU-MATERIELLE">Write Up</a>
     </p>
-
     
-
-
-    
-  </div>
+  </div><br/>
 
 
     
