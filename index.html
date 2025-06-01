@@ -197,7 +197,21 @@ Ce challenge m’a permis de découvrir le traitement du signal, en particulier 
     <strong>Bien que guidé à 70% dans la démarche</strong>, j’ai pris soin de comprendre chaque étape, ce qui m’a donné une base solide pour appréhender la manipulation de signaux numériques.
     <a href="https://github.com/armadne/404CTF-SECU-MATERIELLE">Write Up</a>
     </p>
+
+
+<strong>TryHackMe Bounty Hacker (niveau : Facile)</strong> <br/>
+<p>
+  - Reconnaissance : Scan Nmap → FTP (vsFTPd 3.0.3) + SSH<br/>
+- FTP : Connexion anonyme → récupération de task.txt → user identifié : lin<br/>
+- Brute-force SSH : Hydra + locks.txt → mot de passe trouvé : RedDr4gonSynd1cat3<br/>
+- Connexion SSH : accès à l’utilisateur lin<br/>
+- Privesc : sudo -l → exécution autorisée de tar sans mot de passe<br/>
+- Élévation de privilèges <br/>
+- Objectif final : lecture du flag root.txt<br/>
+
+ Compétences acquises : scan réseau, FTP, brute-force SSH, privilege escalation (sudo + tar)
     
+</p>
   </div><br/>
 
 
