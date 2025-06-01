@@ -157,6 +157,7 @@ Ces épreuves m’ont permis d’exercer mes compétences en investigation numé
     <strong>* Les write-ups détaillés sont disponibles sur demande.</strong>
     </p><br/>
 
+    <p>
      <strong>Sécurité Web – 404CTF </strong>
     J’ai résolu plusieurs challenges portant sur la sécurité des applications web, qui m’ont permis de pratiquer l’exploitation de vulnérabilités courantes dans un environnement contrôlé.<br/>
 
@@ -165,7 +166,22 @@ Parmi les failles exploitées :<br/>
 - Path Traversal : exploitation d’une faille de navigation dans l’arborescence du système de fichiers pour accéder à des fichiers sensibles ou protégés <a href="https://github.com/armadne/404CTF-Path-Traversal">Write Up</a> <br/>
 
 Ces challenges m'ont permis de renforcer ma compréhension du fonctionnement des applications web côté serveur, des erreurs de configuration courantes et de l’impact des mauvaises pratiques de sécurité dans la gestion des données et des accès.
+    </p>
+
+    <strong>Analyse Forensique - 404CTF </strong>
+
+Dans le cadre du 404CTF, j’ai résolu un challenge en analyse forensique portant sur l’exfiltration de données via un périphérique USB à partir d’un fichier de capture réseau au format .pcapng.<br/>
+Étapes clés de l’analyse : <br/>
+- Ouverture du fichier avec Wireshark et application d’un filtre usb pour cibler les communications USB <br/>
+- Identification de paquets URB Bulk OUT contenant des données suspectes via le champ Leftover Capture Data <br/>
+- Extraction des données brutes depuis ces paquets en les exportant au format binaire (.bin) pour conserver l'intégrité des octets <br/>
+- Conversion du contenu binaire en texte pour révéler le flag <br/>
+    <a href="">Write Up</a>
+    </p>
+
     
+
+
     
   </div>
 
