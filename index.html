@@ -223,6 +223,30 @@ Ce challenge m’a permis de découvrir le traitement du signal, en particulier 
 </p>
   </div><br/>
 
+<strong>TryHackMe Basic Pentesting (niveau : Facile)</strong> <br/>
+
+<p> - Reconnaissance : Scan Nmap pour identifier les services actifs (HTTP, SSH, SMB)<br/> 
+  - Web Enumeration : découverte d’un dossier caché avec Gobuster, puis récupération d’infos <br/> 
+  - Enumération SMB : enum4linux utilisé pour identifier des utilisateurs <br/> 
+  - Brute-force SSH : Hydra utilisé avec la wordlist rockyou.txt pour trouver un mot de passe d'un utilisateur<br/> 
+  - Connexion SSH : Pour accèder aux utilisateurs</br>
+  - linPEAS :  utilisé pour détecter la présence d’une clé privée SSH appartenant à un autre utilisateur , (l'outil linPEAS a montré un point d’entrée potentiel vers un autre utilisateur, en trouvant une clé SSH mal sécurisée)<br/>
+  - Brut Force Attack : cassé la clé de chiffrement RSA pour obtenir un hash et convertir ce hash en un mot de passe plus lisible avec JohnTheRipper<br/> 
+  
+Compétences acquises : <br/>
+    - Nmap (scan réseau et détection de services)</br>
+    - Gobuster (brute-force de répertoires web)</br> 
+    - enum4linux(pour l'identification des utilisateurs)</br> 
+    - brute-force SSH avec Hydra, 
+    - linPEAS (énumération locale avancée pour détecter des failles, fichiers sensibles ou clés SSH exploitables)<br/>
+    - JohnTheRipper (pour le déchiffrement)<br/>
+    - * l'élévation de privilèges a été possible grâce a l'outil linPeas qui a localisé une clé SSH exploitable et grâce a l'outil JohnTheRipper qui a converti la clé RSA en un hash et qui a cassé le hash dans le but d'obtenir un mot de passe lisible<br/>
+   
+  <strong>* write-ups détaillé disponible sur demande</strong>
+    
+</p>
+  </div><br/>
+
 
     
   <div>
