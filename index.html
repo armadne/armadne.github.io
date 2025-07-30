@@ -251,6 +251,33 @@ Compétences acquises : <br/>
   </div><br/>
 
 
+
+    <strong>TryHackMe RootMe (niveau : Facile)</strong> <br/>
+
+<p> - Reconnaissance : Scan Nmap pour détecter les ports ouverts (HTTP, SSH) et les versions des services<br/> 
+  - Web Enumeration : Utilisation de Gobuster pour découvrir un répertoire caché /panel contenant un formulaire d’upload <br/> 
+  - Upload Web Shell : Envoi d’un fichier PHP modifié (php-reverse-shell.php.phtml) via le formulaire ; l’extension contournait la protection<br/> 
+  - Reverse Shell : Netcat à l’écoute sur le port 4444 pour recevoir une connexion distante en tant que www-data (www-data -> c'est le nom de l'utilisateur de la machine)<br/> 
+  - Privilege Escalation : Recherche de fichiers SUID via la commande find, identification de /usr/bin/python avec le bit SUID root</br>
+  - Élévation de privilèges : Exploitation du SUID sur Python avec os.setuid(0) et os.system("/bin/bash") dans une session interactive Python, permettant d'obtenir un shell root<br/>
+  - Post Exploitation : Accès au fichier /root/root.txt contenant le flag final<br/> 
+  
+Compétences acquises : <br/>
+    - nmap (scan de ports et détection de services)</br>
+    - gobuster (brute-force de répertoires web) </br> 
+    - exploitation d’upload de fichier non sécurisé </br> 
+    - shell inversé avec netcat </br>
+    - recherche de fichiers SUID (* SUID -> Set User Id = permission root qui permet d'exécuter un programme avec les droits du propriétaire) </br>
+    - élévation de privilèges via un SUID Python mal configuré<br/>
+    - compréhension et manipulation des permissions UNIX avancées (gestion des droits spéciaux comme SUID, qui permettent d’exécuter un programme avec les droits du propriétaire, souvent root)
+    - * L’élévation de privilèges a été rendue possible grâce à la présence d’un binaire Python avec le bit SUID root, permettant de forcer l’exécution en tant que root via une commande Python.<br/>
+   
+  <strong>* write-ups détaillé disponible sur demande</strong>
+    
+</p>
+  </div><br/>
+
+
     
   <div>
    <h2 id="certifications">Mes Certifications</h2>
