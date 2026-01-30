@@ -1,0 +1,66 @@
+1682421050958	geckodriver	INFO	Listening on 127.0.0.1:65242
+1682421054133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofileQbmeXV"
+1682421057218	Marionette	INFO	Marionette enabled
+1682421057249	Marionette	INFO	Listening on port 65253
+WebDriver BiDi listening on ws://localhost:65243
+Read port: 65253
+1682421057944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofileQbmeXV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65243/devtools/browser/8ae82bdc-9808-4ad6-bcfa-3d128cd8ebc9
+1682421129468	Marionette	INFO	Stopped listening on port 65253
+2421068216	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofileUE2aUi"
+1682421069887	Marionette	INFO	Marionette enabled
+1682421069906	Marionette	INFO	Listening on port 65305
+WebDriver BiDi listening on ws://localhost:65283
+Read port: 65305
+1682421070395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofileUE2aUi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65283/devtools/browser/9f0d4be6-9297-464b-98a4-b1b5dd85981f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.google.fr"
+JavaScript warning: https://www.google.fr/maps/_/js/k=maps.m.fr.JyVC3fcCevc.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=BoA1gA/rt=j/d=1/rs=ACT90oFVfuXyWviRQ_cxnqstTvw2_q-zuw, line 1441: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 2020: TypeError: currentPanel is undefined
+JavaScript error: resource://autofill/FormAutofillChild.jsm, line 108: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1682421261510	Marionette	INFO	Stopped listening on port 65305
+1682421266787	geckodriver	INFO	Listening on 127.0.0.1:65419
+1682421269827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65420" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofileYZPlQM"
+1682421272612	Marionette	INFO	Marionette enabled
+1682421272630	Marionette	INFO	Listening on port 65429
+WebDriver BiDi listening on ws://localhost:65420
+Read port: 65429
+1682421273137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofileYZPlQM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65420/devtools/browser/4ae890c0-04d8-4b5a-9806-c318a7431782
+1682421341124	Marionette	INFO	Stopped listening on port 65429
+2421282072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65454" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofilenGx5mN"
+1682421283230	Marionette	INFO	Marionette enabled
+1682421283247	Marionette	INFO	Listening on port 65480
+WebDriver BiDi listening on ws://localhost:65454
+Read port: 65480
+1682421283736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Morpheus\\AppData\\Local\\Temp\\rust_mozprofilenGx5mN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65454/devtools/browser/f5fde393-e081-40c8-b651-f32ca04fd739
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://consent.google.fr"
+JavaScript warning: https://www.google.fr/maps/_/js/k=maps.m.fr.JyVC3fcCevc.2019.O/m=sc2,per,mo,lp,ti,ds,stx,dwi,enr,bom,b/am=JoA1gA/rt=j/d=1/rs=ACT90oEALpeV05gSdzFsz2nA7UhktbztPA, line 1442: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: copyTexSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: copyTexSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
