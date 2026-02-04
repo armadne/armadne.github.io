@@ -78,7 +78,7 @@ button {
   cursor: pointer;
 }
 
-/* ===== GRILLES PROJETS ===== */
+
 
 #site-web,
 #projets-python,
@@ -89,7 +89,7 @@ button {
   margin-top: 30px;
 }
 
-/* TITRES restent full width */
+
 
 #site-web h2,
 #projets-python h2,
