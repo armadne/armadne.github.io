@@ -147,6 +147,86 @@ button {
 
 
 
+/*** CYBER ****/
+
+#cybersecurite {
+padding:4rem 2rem;
+background: whitesmoke;
+
+}
+
+.cyber-header {
+text-align:center;
+margin-bottom:3rem;
+}
+
+.ctf-block {
+margin-bottom:4rem;
+}
+
+.ctf-title {
+display:flex;
+align-items:center;
+gap:1rem;
+margin-bottom:2rem;
+}
+
+.ctf-main-logo {
+width:60px;
+}
+
+.ctf-grid {
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:2rem;
+}
+
+.ctf-card {
+
+border-radius:14px;
+overflow:hidden;
+padding-bottom:1rem;
+box-shadow:0 10px 25px rgba(0,0,0,.5);
+transition:.3s;
+}
+
+.ctf-card:hover {
+transform:translateY(-6px);
+}
+
+.ctf-card img {
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.ctf-card h4 {
+  font-size: 1.05rem;
+    display: flex;
+    margin-bottom: 8px;
+    flex-direction: column-reverse;
+    align-content: stretch;
+    align-items: center;
+}
+
+.ctf-card p,
+.ctf-card ul {
+padding:0 1rem;
+font-size:.9rem;
+
+}
+
+.ctf-card ul {
+margin:1rem 0;
+padding-left:2rem;
+}
+
+.ctf-card li {
+margin-bottom:.4rem;
+}
+
+
+
 
 /*** CERTIF ****/
 

@@ -182,15 +182,12 @@
   <h2>Projets Système Embarqué</h2>
 
   <article class="project">
-    <!-- Screenshot -->
     <a href="1detecteur_luminosit_/1detecteur_luminosit_.ino">
       <img src="embedded.png" alt="Système de détection avec ESP32">
     </a>
 
-    <!-- Titre -->
     <h3>Système de détection de présence connecté (ESP32)</h3>
 
-    <!-- Description -->
     <p>
       Réalisation d’un système de détection utilisant un ESP32, un capteur PIR et un capteur ultrasonique.
       Lorsqu’une présence est détectée, une LED et un buzzer s’activent.
@@ -205,15 +202,13 @@
   </article>
 
   <article class="project">
-    <!-- Screenshot -->
+   
     <a href="https://github.com/armadne/ESP32-FLASK-WEBSITE-MOTION-DETECTION-MAIN">
       <img src="embedded.png" alt="Détecteur de luminosité Arduino">
     </a>
 
-    <!-- Titre -->
     <h3>Détecteur de luminosité portable (Arduino)</h3>
 
-    <!-- Description -->
     <p>
       Conception d’un détecteur de luminosité portable utilisant un Arduino.
       Le système contrôle des LED et un buzzer en fonction de l’intensité de la lumière ambiante,
@@ -222,22 +217,35 @@
   </article>
 </section>
 
+
+
 <section id="cybersecurite">
 
-  <header>
+  <header class="cyber-header">
     <h2>Cybersécurité</h2>
     <h3>Participation Capture The Flag (CTF)</h3>
   </header>
 
 
   <!-- ===================== 404CTF ===================== -->
-  <article>
-    <img src="logo-404.png" alt="Logo 404CTF">
+  <article class="ctf-block">
 
+    <div class="ctf-title">
+
+       <img src="logo-404.png" alt="Logo 404CTF" class="ctf-main-logo">
+    <div>
     <h3>404CTF (Université Télécom Sud Paris / DGSE / OVHcloud) - 10 mai au 1 juin 2025</h3>
     <p><strong>Classement : 547ᵉ sur 2 893 participants (top 20 %)</strong></p>
 
-    <section>
+    </div>
+  </div>
+
+
+  <div class="ctf-grid">
+
+    <div class="ctf-card">
+      <img src="" alt="OSINT 404CTF">
+
       <h4>OSINT – 404CTF</h4>
       <p>
         J’ai participé à 7 challenges OSINT dans le cadre de l’événement de cybersécurité 404CTF, organisé par l’Université Paris-Saclay, la DGSE et OVHcloud.<br>
@@ -252,9 +260,15 @@
         <li>Identification d’oiseaux à partir d’un enregistrement audio afin de confirmer une localisation en Guyane (flag : Lamprospiza melanoleuca) (utilisation de l'application mobile BirdNet pour l'identification d'oiseaux)</li>
       </ul>
       <p><strong>* Les write-ups détaillés sont disponibles sur demande.</strong></p>
-    </section>
+    
+      </div>
+      
 
-    <section>
+
+
+    <div class="ctf-card">
+      <img src="" alt="Web 404CTF"/>
+
       <h4>Sécurité Web – 404CTF</h4>
       <p>
         J’ai résolu plusieurs challenges portant sur la sécurité des applications web, qui m’ont permis de pratiquer l’exploitation de vulnérabilités courantes dans un environnement contrôlé.
@@ -266,9 +280,13 @@
       <p>
         Ces challenges m'ont permis de renforcer ma compréhension du fonctionnement des applications web côté serveur, des erreurs de configuration courantes et de l’impact des mauvaises pratiques de sécurité dans la gestion des données et des accès.
       </p>
-    </section>
+    </div>
 
-    <section>
+
+
+    <div class="ctf-card">
+      <img src="" alt="Forensic 404CTF"/>
+
       <h4>Analyse Forensique – 404CTF</h4>
       <p>
         Résolution d'un challenge en analyse forensique portant sur l’exfiltration de données via un périphérique USB à partir d’un fichier de capture réseau au format .pcapng.
@@ -279,9 +297,11 @@
         <li>Extraction des données au format binaire (.bin)</li>
         <li>Conversion du contenu binaire en texte pour révéler le flag</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
+    <div class="ctf-card">
+      <img src="" alt="Hardware 404CTF"/>
+
       <h4>Sécurité Matérielle – 404CTF</h4>
       <p>
         Dans ce challenge, j’ai dû reconstruire un signal audio à partir d’un fichier IQ (chall.iq) contenant des données complexes issues d’une transformée de Fourier.
@@ -295,20 +315,29 @@
       <p>
         <strong>Bien que guidé à 70% dans la démarche</strong>, j’ai pris soin de comprendre chaque étape.
       </p>
-      
-    </section>
-  </article>
+
+      </div>
+
+      </div>
+      </article>
 
 
 
   <!-- ===== TRYHACKME ===== -->
-  <article class="ctf">
+  <article class="ctf-block">
+
+    <div class="ctf-title">
 
     <img src="tryhackme.png" alt="TryHackMe logo" class="ctf-logo"/>
 
-    <h2>TryHackMe (Plateforme d'apprentissage en cybersécurité offensive) Mai 2025 - En cours</h2>
+    <h3>TryHackMe (Plateforme d'apprentissage en cybersécurité offensive) Mai 2025 - En cours</h3>
+    </div>
 
-    <strong>"Bounty Hacker" (niveau : Facile)</strong><br/>
+    <div class="ctf-grid">
+      <div class="ctf-card">
+        <img src="" alt="Bounty Hacker"/>
+
+    <h4>"Bounty Hacker" (niveau : Facile)</h4>
     <p>
       - Reconnaissance : Scan Nmap <br/>
       - utilisation protocole FTP pour récupérer un fichier "à distance" task.txt, pour identifier un user <br/>
@@ -319,28 +348,39 @@
       - Objectif final : lecture du flag root.txt<br/>
       Compétences acquises : scan réseau NMAP, FTP, brute-force SSH, privilege escalation<br/>
       <strong>* write-ups détaillé disponible sur demande</strong>
-    </p><br/>
+    </p>
 
-    <strong>"Basic Pentesting" (niveau : Facile)</strong><br/>
+    </div>
+
+
+
+    <div class="ctf-card">
+      <img src="" alt="Basic Pentesting">
+
+    <h4>"Basic Pentesting" (niveau : Facile)</h4>
     <p>
       - Reconnaissance : Scan Nmap pour identifier les services actifs (HTTP, SSH, SMB)<br/>
       - Web Enumeration : découverte d’un dossier caché avec Gobuster, puis récupération d’infos <br/>
       - Enumération SMB : enum4linux utilisé pour identifier des utilisateurs <br/>
       - Brute-force SSH : Hydra utilisé avec la wordlist rockyou.txt pour trouver un mot de passe d'un utilisateur<br/>
-      - Connexion SSH : Pour accèder aux utilisateurs</br>
+      - Connexion SSH : Pour accèder aux utilisateurs<br/>
       - linPEAS : utilisé pour détecter la présence d’une clé privée SSH appartenant à un autre utilisateur <br/>
       - Brut Force Attack : cassé la clé de chiffrement RSA pour obtenir un hash et convertir ce hash en un mot de passe plus lisible avec JohnTheRipper<br/>
       Compétences acquises : <br/>
-      - Nmap (scan réseau et détection de services)</br>
-      - Gobuster (brute-force de répertoires web)</br>
-      - enum4linux(pour l'identification des utilisateurs)</br>
+      - Nmap (scan réseau et détection de services)<br/>
+      - Gobuster (brute-force de répertoires web)<br/>
+      - enum4linux(pour l'identification des utilisateurs)<br/>
       - brute-force SSH avec Hydra<br/>
       - linPEAS<br/>
       - JohnTheRipper<br/>
       <strong>* write-ups détaillé disponible sur demande</strong>
-    </p><br/>
+    </p>
+    </div>
 
-    <strong>"RootMe" (niveau : Facile)</strong><br/>
+
+    <div class="ctf-card">
+      <img src="" alt="RootMe">
+    <h4>"RootMe" (niveau : Facile)</h4><br/>
     <p>
       - Reconnaissance : Scan Nmap <br/>
       - Web Enumeration : Gobuster <br/>
@@ -349,9 +389,13 @@
       - Privilege Escalation : SUID Python <br/>
       - Lecture du flag root.txt<br/>
       <strong>* write-ups détaillé disponible sur demande</strong>
-    </p><br/>
+    </p>
+    </div>
 
-    <strong>"Simple CTF" (niveau : Facile)</strong><br/>
+    <div class="ctf-card">
+<img src="" alt="Simple CTF">
+
+    <h4>"Simple CTF" (niveau : Facile)</h4><br/>
     <p>
       - Reconnaissance : Scan Nmap <br/>
       - Web Enumeration <br/>
@@ -362,7 +406,11 @@
       <strong>* write-ups détaillé disponible sur demande</strong>
     </p>
 
+  </div>
+
+  </div>
   </article>
+  </section>
 
 <h2>Certifications</h2>
 
