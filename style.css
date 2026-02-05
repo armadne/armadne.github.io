@@ -79,6 +79,11 @@ button {
 }
 
 
+h2.titre-categorie
+{
+  display: flex;
+  justify-content: center;
+}
 
 #site-web,
 #projets-python,
