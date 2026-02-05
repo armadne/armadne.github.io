@@ -348,8 +348,18 @@
       - Privesc (Privilege Escalation) : <strong>sudo -l</strong> exécution autorisée de tar sans mot de passe<br/>
       - Élévation de privilèges <br/>
       - Objectif final : lecture du flag root.txt<br/>
-      Compétences acquises : scan réseau NMAP, FTP, brute-force SSH, privilege escalation<br/>
-      <strong>* write-ups détaillé disponible sur demande</strong>
+
+      Compétences acquises : <br/>
+      
+      - Scanner une machine cible avec Nmap pour identifier les ports ouverts. <br/>
+      - Exploiter le protocole FTP afin de récupérer un fichier distant (task.txt) contenant des informations menant à un utilisateur valide. <br/>
+      - Réaliser une attaque de brute‑force SSH avec Hydra pour obtenir des identifiants. <br/>
+      - Accéder au système via SSH et effectuer une phase de post‑exploitation. <br/>
+      - Identifier une mauvaise configuration sudo (sudo -l) autorisant l’exécution de tar sans mot de passe. <br/>
+      - Exploiter cette configuration pour effectuer une élévation de privilèges et obtenir un accès root. <br/>
+      - Atteindre l’objectif final : lecture du fichier root.txt. <br/>
+
+ 
     </p>
 
     </div>
@@ -368,13 +378,17 @@
       - Connexion SSH : Pour accèder aux utilisateurs<br/>
       - linPEAS : utilisé pour détecter la présence d’une clé privée SSH appartenant à un autre utilisateur <br/>
       - Brut Force Attack : cassé la clé de chiffrement RSA pour obtenir un hash et convertir ce hash en un mot de passe plus lisible avec JohnTheRipper<br/>
+
       Compétences acquises : <br/>
-      - Nmap (scan réseau et détection de services)<br/>
-      - Gobuster (brute-force de répertoires web)<br/>
-      - enum4linux(pour l'identification des utilisateurs)<br/>
-      - brute-force SSH avec Hydra<br/>
-      - linPEAS<br/>
-      - JohnTheRipper<br/>
+
+      - Réaliser une phase de reconnaissance réseau avec Nmap afin d’identifier les services exposés (HTTP, SSH, SMB) et comprendre la surface d’attaque. <br/>
+      - Effectuer de la web enumeration avec Gobuster pour découvrir des répertoires cachés et collecter des informations exploitables. <br/>
+      - Utiliser enum4linux pour énumérer les utilisateurs SMB et repérer des comptes potentiellement vulnérables. <br/>
+      - Mener une attaque de brute‑force SSH avec Hydra, en exploitant une wordlist (rockyou.txt) pour obtenir l’accès à un utilisateur. <br/>
+      - Se connecter en SSH et naviguer dans le système afin de poursuivre l’exploitation. <br/>
+      - Employer linPEAS pour analyser automatiquement les vecteurs de privilege escalation, notamment la découverte d’une clé privée SSH appartenant à un autre utilisateur. <br/>
+      - Extraire et casser une clé RSA afin d’obtenir un hash, puis convertir ce hash en mot de passe exploitable grâce à JohnTheRipper. <br/>
+      <strong>* write-ups détaillé disponible sur demande</strong>
       <strong>* write-ups détaillé disponible sur demande</strong>
     </p>
     </div>
@@ -383,14 +397,24 @@
     <div class="ctf-card">
       <img src="" alt="RootMe">
     <h4>"RootMe" (niveau : Facile)</h4><br/>
-    <p>
-      - Reconnaissance : Scan Nmap <br/>
-      - Web Enumeration : Gobuster <br/>
-      - Upload Web Shell <br/>
-      - Reverse Shell : Netcat <br/>
-      - Privilege Escalation : SUID Python <br/>
-      - Lecture du flag root.txt<br/>
-      <strong>* write-ups détaillé disponible sur demande</strong>
+<p>
+    - Reconnaissance : Scan Nmap pour détecter les ports ouverts (HTTP, SSH) et les versions des services <br/>
+- Web Enumeration : Utilisation de Gobuster pour découvrir un répertoire caché /panel contenant un formulaire d’upload <br/>
+- Upload Web Shell : Envoi d’un fichier PHP modifié (php-reverse-shell.php.phtml) via le formulaire ; l’extension contournait la protection <br/>
+- Reverse Shell : Netcat à l’écoute sur le port 4444 pour recevoir une connexion distante en tant que www-data (www-data -> c'est le nom de l'utilisateur de la machine) <br/>
+- Privilege Escalation : Recherche de fichiers SUID via la commande find, identification de /usr/bin/python avec le bit SUID root <br/>
+- Élévation de privilèges : Exploitation du SUID sur Python avec os.setuid(0) et os.system("/bin/bash") dans une session interactive Python, permettant d'obtenir un shell root <br/>
+- Post Exploitation : Accès au fichier /root/root.txt contenant le flag final <br/>
+Compétences acquises : <br/>
+- nmap (scan de ports et détection de services) <br/>
+- gobuster (brute-force de répertoires web) <br/>
+- exploitation d’upload de fichier non sécurisé <br/>
+- shell inversé avec netcat <br/>
+- recherche de fichiers SUID (* SUID -> Set User Id = permission root qui permet d'exécuter un programme avec les droits du propriétaire) <br/>
+- élévation de privilèges via un SUID Python mal configuré <br/>
+- compréhension et manipulation des permissions UNIX avancées (gestion des droits spéciaux comme SUID, qui permettent d’exécuter un programme avec les droits du propriétaire, souvent root)<br/>
+- * L’élévation de privilèges a été rendue possible grâce à la présence d’un binaire Python avec le bit SUID root, permettant de forcer l’exécution en tant que root via une commande Python.<br/>
+<strong>* write-ups détaillé disponible sur demande</strong>
     </p>
     </div>
 
@@ -399,13 +423,23 @@
 
     <h4>"Simple CTF" (niveau : Facile)</h4><br/>
     <p>
-      - Reconnaissance : Scan Nmap <br/>
-      - Web Enumeration <br/>
-      - Exploitation Web : SQL Injection <br/>
-      - Connexion SSH <br/>
-      - Privilege Escalation : sudo vim <br/>
-      - Lecture du flag root
-      <strong>* write-ups détaillé disponible sur demande</strong>
+      - Reconnaissance : Scan Nmap pour détecter les ports ouverts (FTP, HTTP) et les versions des services exposés<br/>
+- Web Enumeration : Analyse du site web vulnérable et identification d’un CMS (CMS Made Simple) exploitable <br/>
+- Exploitation Web : Utilisation d’un exploit SQL Injection (CVE-2019-9053) pour récupérer les identifiants de connexion <br/>
+- Accès utilisateur : Connexion SSH avec les identifiants compromis permettant de prendre le contrôle du compte mitch <br/>
+- Privilege Escalation : Vérification des permissions sudo avec sudo -l, montrant que l’utilisateur peut exécuter /usr/bin/vim en tant que root sans mot de passe <br/>
+- Élévation de privilèges : Exécution de Vim en sudo puis utilisation de :!bash -i pour ouvrir un shell root <br/>
+- Post-Exploitation : Lecture du fichier root dans /root contenant le flag final <br/>
+Compétences acquises : <br/>
+- Analyse réseau avec Nmap (détection de ports/services) <br/>
+- Reconnaissance Web pour détecter les CMS et vulnérabilités associées <br/>
+- Exploitation d’une injection SQL (CVE) pour récupérer des identifiants <br/>
+- Connexion sécurisée via SSH <br/>
+- Vérification des droits d’un utilisateur via sudo -l <br/>
+- Élévation de privilèges grâce à une configuration sudo erronée (Vim NOPASSWD) <br/>
+- Utilisation de Vim pour exécuter des commandes système et obtenir un shell root <br/>
+- Compréhension des mécanismes d’abus sudo et de mauvaise configuration des permissions <br/>
+<strong>* write-ups détaillé disponible sur demande</strong>
     </p>
 
   </div>
