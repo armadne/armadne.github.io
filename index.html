@@ -268,59 +268,137 @@
 
 
 
-    <div class="ctf-card">
-      <img src="img/securite-web.png" alt="Web 404CTF"/>
+<div class="ctf-card">
+  <img src="img/securite-web.png" alt="Web 404CTF"/>
 
-      <h4>Sécurité Web – 404CTF</h4>
-      <p>
-        J’ai résolu plusieurs challenges portant sur la sécurité des applications web, qui m’ont permis de pratiquer l’exploitation de vulnérabilités courantes dans un environnement contrôlé.
-      </p>
-      <ul>
-        <li>JWT falsification : manipulation de jetons d’authentification JSON Web Token pour contourner les mécanismes de vérification d’identité</li>
-        <li>Path Traversal : exploitation d’une faille de navigation dans l’arborescence du système de fichiers</li>
-      </ul>
-      <p>
-        Ces challenges m'ont permis de renforcer ma compréhension du fonctionnement des applications web côté serveur, des erreurs de configuration courantes et de l’impact des mauvaises pratiques de sécurité dans la gestion des données et des accès.
-      </p>
-    </div>
+  <h4>Sécurité Web – 404CTF</h4>
+
+  <p>
+    J’ai résolu plusieurs challenges portant sur la sécurité des applications web, ce qui m’a permis de pratiquer
+    l’exploitation de vulnérabilités courantes dans un environnement contrôlé et de mieux comprendre les mécanismes
+    internes côté serveur.
+  </p>
+
+  <ul>
+    <li>
+      <strong>JWT Falsification</strong> — Analyse et manipulation de jetons JSON Web Token afin de contourner
+      l’authentification. J’ai exploité une mauvaise configuration de la vérification de signature pour modifier
+      le payload et usurper des privilèges.
+      <br>
+      <em>Compétences :</em> structure JWT, validation cryptographique, gestion des rôles, risques liés aux tokens mal sécurisés.
+    </li>
+
+    <li>
+      <strong>Path Traversal</strong> — Exploitation d’entrées utilisateur mal filtrées via des séquences
+      <code>../</code> permettant d’accéder à des fichiers hors du répertoire prévu.
+      <br>
+      <em>Compétences :</em> arborescence serveur, accès non autorisé, validation des chemins, protection des fichiers sensibles.
+    </li>
+  </ul>
+
+  <p>
+    Ces challenges m’ont permis de renforcer ma compréhension du backend web, des erreurs de configuration courantes
+    et de l’impact concret des mauvaises pratiques de sécurité sur la protection des données et la gestion des accès.
+  </p>
+</div>
 
 
+<div class="ctf-card">
+  <img src="img/forensique.png" alt="Forensic 404CTF"/>
 
-    <div class="ctf-card">
-      <img src="img/forensique.png" alt="Forensic 404CTF"/>
+  <h4>Analyse Forensique – 404CTF</h4>
 
-      <h4>Analyse Forensique – 404CTF</h4>
-      <p>
-        Résolution d'un challenge en analyse forensique portant sur l’exfiltration de données via un périphérique USB à partir d’un fichier de capture réseau au format .pcapng.
-      </p>
-      <ul>
-        <li>Ouverture du fichier avec Wireshark et application d’un filtre usb</li>
-        <li>Identification de paquets URB Bulk OUT via Leftover Capture Data</li>
-        <li>Extraction des données au format binaire (.bin)</li>
-        <li>Conversion du contenu binaire en texte pour révéler le flag</li>
-      </ul>
-    </div>
+  <p>
+    Résolution d’un challenge d’analyse forensique portant sur l’exfiltration de données via un périphérique USB,
+    à partir d’un fichier de capture réseau au format <strong>.pcapng</strong>.  
+    L’objectif était d’identifier, extraire puis reconstruire les données afin d’obtenir le flag.
+  </p>
 
-    <div class="ctf-card">
-      <img src="" alt="Hardware 404CTF"/>
+  <ul>
+    <li>
+      <strong>Analyse réseau avec Wireshark</strong> — Ouverture du fichier <code>.pcapng</code> et application
+      de filtres USB pour isoler les communications pertinentes.
+      <br>
+      <em>Compétences :</em> lecture de captures réseau, filtrage avancé, compréhension du protocole USB.
+    </li>
 
-      <h4>Sécurité Matérielle – 404CTF</h4>
-      <p>
-        Dans ce challenge, j’ai dû reconstruire un signal audio à partir d’un fichier IQ (chall.iq) contenant des données complexes issues d’une transformée de Fourier.
-      </p>
-      <ul>
-        <li>Chargement des données IQ avec numpy</li>
-        <li>Application de l’IFFT</li>
-        <li>Normalisation, conversion int16 et export WAV</li>
-        <li>Écoute du signal pour identifier le flag</li>
-      </ul>
-      <p>
-        <strong>Bien que guidé à 70% dans la démarche</strong>, j’ai pris soin de comprendre chaque étape.
-      </p>
+    <li>
+      <strong>Identification des paquets URB Bulk OUT</strong> — Repérage des données utiles via
+      <em>Leftover Capture Data</em> afin de reconstituer le flux exfiltré.
+      <br>
+      <em>Compétences :</em> analyse de trames USB, extraction de payload.
+    </li>
 
-      </div>
+    <li>
+      <strong>Extraction des données</strong> — Export du contenu récupéré au format binaire (<code>.bin</code>).
+      <br>
+      <em>Compétences :</em> manipulation de données brutes, reconstruction de fichiers.
+    </li>
 
-      </div>
+    <li>
+      <strong>Conversion et interprétation</strong> — Transformation du binaire en texte lisible afin de révéler le flag.
+      <br>
+      <em>Compétences :</em> encodage, analyse hexadécimale, compréhension des formats de données.
+    </li>
+  </ul>
+
+  <p>
+    Ce challenge m’a permis de mieux comprendre les techniques d’exfiltration de données,
+    l’analyse de captures réseau et les bases de la forensique numérique,
+    tout en renforçant ma rigueur méthodologique lors d’investigations techniques.
+  </p>
+</div>
+
+
+    
+
+<div class="ctf-card">
+  <img src="img/securite-materielle.png" alt="Hardware 404CTF"/>
+
+  <h4>Sécurité Matérielle – 404CTF</h4>
+
+  <p>
+    Challenge de sécurité matérielle visant à reconstruire un signal audio à partir d’un fichier IQ (<code>chall.iq</code>)
+    contenant des données complexes issues d’une transformée de Fourier.  
+    L’objectif était de traiter ces données numériques afin de reconstituer un fichier audio exploitable et révéler le flag.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Chargement et manipulation des données IQ</strong> — Import du fichier avec <code>numpy</code>
+      pour traiter les valeurs complexes.
+      <br>
+      <em>Compétences :</em> Python scientifique, manipulation de tableaux numériques.
+    </li>
+
+    <li>
+      <strong>Application de l’IFFT</strong> — Utilisation de la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel.
+      <br>
+      <em>Compétences :</em> bases du traitement du signal, compréhension FFT / IFFT.
+    </li>
+
+    <li>
+      <strong>Normalisation et conversion audio</strong> — Mise à l’échelle des valeurs,
+      conversion en <code>int16</code> puis export du signal au format WAV.
+      <br>
+      <em>Compétences :</em> formats audio, conversion numérique, génération de fichiers.
+    </li>
+
+    <li>
+      <strong>Analyse du résultat</strong> — Écoute du signal reconstruit afin d’identifier le flag caché.
+      <br>
+      <em>Compétences :</em> validation par analyse audio et interprétation du signal.
+    </li>
+  </ul>
+
+  <p>
+    <strong>Bien que guidé à environ 70% dans la démarche</strong>, j’ai pris soin de comprendre chaque étape du processus,
+    ce qui m’a permis de consolider mes bases en traitement du signal, en manipulation de données complexes
+    et en exploitation de fichiers issus de systèmes matériels.
+  </p>
+</div>
+</div>
+
       </article>
 
 

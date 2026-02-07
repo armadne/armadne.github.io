@@ -190,9 +190,11 @@ gap:2rem;
 
 border-radius:14px;
 overflow:hidden;
-padding-bottom:1rem;
+padding-bottom:0rem;
 box-shadow:0 10px 25px rgba(0,0,0,.5);
 transition:.3s;
+  display: flex;
+  flex-direction: column;
 }
 
 .ctf-card:hover {
@@ -218,12 +220,14 @@ object-fit:cover;
 .ctf-card ul {
 padding:0 1rem;
 font-size:.9rem;
+flex-grow: 1;
 
 }
 
 .ctf-card ul {
-margin:1rem 0;
+margin:0rem 0;
 padding-left:2rem;
+flex-grow: 1;
 }
 
 .ctf-card li {
