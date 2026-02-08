@@ -180,11 +180,15 @@ margin-bottom:2rem;
 width:60px;
 }
 
+
 .ctf-grid {
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  align-items: stretch;
 }
+
+
 
 .ctf-card {
 
@@ -224,6 +228,15 @@ flex-grow: 1;
 
 }
 
+.ctf-card p,
+.ctf-card ul {
+  padding: 0 1rem;
+  font-size: .9rem;
+  flex-grow: 1;
+}
+
+
+
 .ctf-card ul {
 margin:0rem 0;
 padding-left:2rem;
@@ -233,6 +246,17 @@ flex-grow: 1;
 .ctf-card li {
 margin-bottom:.4rem;
 }
+
+/*** THM ****/
+
+
+.ctf-block-thm .ctf-card p,
+.ctf-block-thm .ctf-card ul {
+  flex-grow: 0;
+}
+
+
+
 
 
 
