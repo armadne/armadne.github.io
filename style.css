@@ -169,15 +169,28 @@ margin-bottom:3rem;
 margin-bottom:4rem;
 }
 
-.ctf-title {
-display:flex;
-align-items:center;
-gap:1rem;
-margin-bottom:2rem;
+.ctf-title-404-ctf {
+display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
 }
 
-.ctf-main-logo {
-width:60px;
+.ctf-title-thm {
+      display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+.ctf-404-logo {
+width:400px;
+}
+
+.ctf-thm-logo {
+  width: 400px;
 }
 
 
