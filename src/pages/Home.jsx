@@ -20,13 +20,19 @@ export default function Home() {
 
 <main>
 
-<section className="intro">
+
+  <section className="intro">
   <h2>PRÉSENTATION</h2>
   <p>
-    Développeur autodidacte passionné, je conçois des scripts, outils, logiciels, applications web et systèmes embarqués.<br/>
-    Curieux et polyvalent, je progresse chaque jour dans le développement full-stack, l’IoT et la cybersécurité offensive.
+    Bonjour, je m'appelle <strong>Madane AROUL</strong>, développeur web Full-Stack passionné par la sécurité informatique et l’optimisation des applications.<br/>
+    Après une licence LEA (anglais-espagnol et commerce), je me suis reconverti vers le développement web, fasciné par la logique derrière les applications et la création de solutions sécurisées.<br/>
+    Je maîtrise HTML, CSS, JavaScript et React, avec une spécialisation en Front-End et sécurité offensive, et je perfectionne mes compétences à travers des projets pratiques et des environnements comme TryHackMe et CTF 404CTF.<br/>
+    Mon approche combine autonomie, curiosité et rigueur, car je crois qu’un développement web efficace et sécurisé passe par une compréhension fine des technologies et des besoins utilisateurs.<br/>
+    Mon objectif est d’intégrer une équipe technique dynamique pour continuer à progresser, contribuer à des projets concrets et approfondir mes compétences en optimisation, accessibilité et pentesting.
   </p>
 </section>
+
+
 
 <section id="site-web">
   <h2 className="titre-categorie">Site Web</h2>
