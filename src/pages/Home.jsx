@@ -26,7 +26,7 @@ export default function Home() {
   <p>
     Bonjour, je m'appelle <strong>Madane AROUL</strong>, développeur web Full-Stack passionné par la sécurité informatique et l’optimisation des applications.<br/>
     Après une licence LEA (anglais-espagnol et commerce), je me suis reconverti vers le développement web, fasciné par la logique derrière les applications et la création de solutions sécurisées.<br/>
-    Je maîtrise HTML, CSS, JavaScript et React, avec une spécialisation en Front-End et sécurité offensive, et je perfectionne mes compétences à travers des projets pratiques et des environnements comme TryHackMe et CTF 404CTF.<br/>
+    Je maîtrise HTML, CSS, JavaScript et React, avec une spécialisation en Front-End et sécurité offensive, et je perfectionne mes compétences à travers des projets pratiques et des environnements comme TryHackMe.<br/>
     Mon approche combine autonomie, curiosité et rigueur, car je crois qu’un développement web efficace et sécurisé passe par une compréhension fine des technologies et des besoins utilisateurs.<br/>
     Mon objectif est d’intégrer une équipe technique dynamique pour continuer à progresser, contribuer à des projets concrets et approfondir mes compétences en optimisation, accessibilité et pentesting.
   </p>
@@ -41,7 +41,7 @@ export default function Home() {
   <a href="sophie-bluel/index.html">
     <img src="img/bluel.png" alt="Portfolio Sophie Bluel"/>
   </a>
-  <p><strong>Sophie Bluel – Portfolio d’architecte d’intérieur</strong></p>
+  <h3>Sophie Bluel – Portfolio d’architecte d’intérieur</h3>
   <p>
     Création d’une page web dynamique en JavaScript à partir d’une API REST.
     Mise en place d’une galerie de projets filtrable par catégories,
@@ -54,7 +54,7 @@ export default function Home() {
   <a href="https://github.com/armadne/Nina-Carducci-Dev-master">
     <img src="img/carducci.png" alt="Site optimisé Nina Carducci"/>
   </a>
-  <p><strong>Nina Carducci – Débogage et optimisation SEO</strong></p>
+  <h3>Nina Carducci – Débogage et optimisation SEO</h3>
   <p>
     Analyse et correction de bugs JavaScript, optimisation des performances
     (lazy loading, compression, accessibilité),
@@ -68,7 +68,7 @@ export default function Home() {
   <a href="https://github.com/armadne/kasa">
     <img src="img/kasa.png" alt="Application React Kasa"/>
   </a>
-  <p><strong>KASA – Application web de location immobilière</strong></p>
+  <h3>KASA – Application web de location immobilière</h3>
   <p>
     Développement d’une application web en React avec une architecture en composants.
     Mise en place du routing avec React Router,
@@ -83,7 +83,7 @@ export default function Home() {
   <a href="https://github.com/armadne/Backend-PROJ-GRIMOIR">
     <img src="img/grimoir.png" alt="Backend Le Vieux Grimoire"/>
   </a>
-  <p><strong>Le Vieux Grimoire – Backend Node.js / Express</strong></p>
+  <h3>Le Vieux Grimoire – Backend Node.js / Express</h3>
   <p>
     Développement du back-end d’un site de notation de livres avec Node.js et Express.
     Création d’une API REST sécurisée,
@@ -97,7 +97,7 @@ export default function Home() {
   <a href="booki-projet-main/index.html">
     <img src="img/booki.png" alt="Projet Booki – intégration HTML CSS"/>
   </a>
-  <p><strong>Booki – Intégration d’une maquette responsive</strong></p>
+  <h3>Booki – Intégration d’une maquette responsive</h3>
   <p>
     Projet réalisé dans le cadre de la formation Développeur Web chez OpenClassrooms.
     Intégration fidèle d’une maquette Figma en HTML5 et CSS3,
@@ -109,7 +109,7 @@ export default function Home() {
   <a href="Magasin/index.html">
     <img src="img/merlin.png" alt="Site vitrine magasin de meubles"/>
   </a>
-  <p><strong>Site vitrine – Magasin de meubles et électroménager</strong></p>
+  <h3>Site vitrine – Magasin de meubles et électroménager</h3>
   <p>
     Création d’un site web fictif présentant différents produits.
     L’objectif est de démontrer comment une interface claire et structurée
@@ -122,7 +122,7 @@ export default function Home() {
   <a href="https://kingz-congo1.vercel.app/">
     <img src="img/kingz.png" alt="Site vitrine association de basketball"/>
   </a>
-  <p><strong>Site vitrine – Association de basketball</strong></p>
+  <h3>Site vitrine – Association de basketball</h3>
   <p>
     Première version d’un site vitrine développée lors d’un stage.
     Frontend réalisé avec React,
@@ -136,7 +136,7 @@ export default function Home() {
   <a href="https://github.com/armadne/6_authentification_react_JS">
     <img src="img/auth.png" alt="Système d’authentification React"/>
   </a>
-  <p><strong>Système d’authentification – React</strong></p>
+  <h3>Système d’authentification – React</h3>
   <p>
     Développement d’un site d’authentification intégrant
     l’inscription, la connexion et la déconnexion des utilisateurs,
@@ -153,15 +153,15 @@ export default function Home() {
 
   <article className="project">
     <a href="bot_eiffel/Eiffel.py"><img src="img/itineraire-bot.png" alt="script itinéraire"/></a>
-    <p><strong>Script d’automatisation Selenium</strong>
-      Le script il ouvre Google Maps, recherche un lieu spécifique (ici « La Tour Eiffel »)
+    <h3>Script d’automatisation Selenium</h3>
+      <p>Le script il ouvre Google Maps, recherche un lieu spécifique (ici « La Tour Eiffel »)
       clique sur le bouton d’itinéraire, et interagit avec l’interface pour afficher les options de trajet.</p>
   </article>
 
   <article className="project">
     <a href="https://github.com/armadne/code-creation-fiche-produit/blob/main/main-generate-fiche-produits.py"><img src="img/web-scraper.png" alt="web-scraper-projet"/></a>
-    <p>
-      <strong>Web scraper</strong> Développement d’un bot Python capable de générer automatiquement des fiches produits Word à partir d’une liste de numéros SKU fournie dans un fichier Excel.
+    <h3>Web scraper</h3>
+    <p> Développement d’un bot Python capable de générer automatiquement des fiches produits Word à partir d’une liste de numéros SKU fournie dans un fichier Excel.
       Le script récupère pour chaque produit les informations suivantes depuis un site web : titre, image, description, spécifications techniques et documentation PDF.
       Il utilise les bibliothèques Playwright, openpyxl, requests et python-docx, et peut être réadapté à d'autres sites ou formats de fiche.
       <a href="https://versatilium.gumroad.com/l/automation_py?_gl=1*18itrqa*_ga*MTAzODcxMjkxLjE3NDY0NDg4NDA.*_ga_6LJN6D94N6*czE3NDg3Nzg5NjYkbzEkZzEkdDE3NDg3NzkwMzgkajU3JGwwJGgw">Voir le projet sur Gumroad</a>
@@ -170,8 +170,9 @@ export default function Home() {
 
   <article className="project">
     <a href="https://github.com/armadne/easy_check_with_phone_number"><img src="img/script-auto-mail.png" alt="script-automatisation"/></a>
+    <h3>Script d'automatisation</h3>
     <p>
-      <strong>Script d'automatisation</strong> Développement d'un script automatisé pour envoyer des notifications SMS à mon téléphone lors de la réception d'un e-mail,
+     Développement d'un script automatisé pour envoyer des notifications SMS à mon téléphone lors de la réception d'un e-mail,
       en utilisant les conseils et l'assistance de ChatGPT (Python, Tulio, ExchangeLib, PushBullet) (EN COURS)
     </p>
   </article>

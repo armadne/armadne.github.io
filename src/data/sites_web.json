@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Sophie Bluel",
+    "image": "img/bluel.png",
+    "link": "sophie-bluel/index.html",
+    "description": "Portfolio dynamique avec API REST, galerie filtrable, authentification admin."
+  },
+  {
+    "id": 2,
+    "title": "Nina Carducci",
+    "image": "img/carducci.png",
+    "link": "https://github.com/armadne/Nina-Carducci-Dev-master",
+    "description": "Optimisation SEO, performances, accessibilité et debugging JS."
+  },
+  {
+    "id": 3,
+    "title": "Kasa",
+    "image": "img/kasa.png",
+    "link": "https://github.com/armadne/kasa",
+    "description": "Application React avec routing, composants interactifs et UX."
+  },
+
+      {
+    "id": 4,
+    "title": "Le Vieux Grimoire – Backend Node.js / Express",
+    "image": "img/grimoir.png",
+    "link": "https://github.com/armadne/Backend-PROJ-GRIMOIR",
+    "description": "Développement du back-end d’un site de notation de livres avec Node.js et Express. Création d’une API REST sécurisée, gestion de l’authentification JWT, stockage des données avec MongoDB et Mongoose, gestion des images, et implémentation des règles métiers (notes, permissions, sécurité)."
+  },
+
+
+    {
+    "id": 5,
+    "title": "Booki – Intégration d’une maquette responsive",
+    "image": "img/booki.png",
+    "link": "booki-projet-main/index.html",
+    "description": "Projet réalisé dans le cadre de la formation Développeur Web chez OpenClassrooms. Intégration fidèle d’une maquette Figma en HTML5 et CSS3, avec mise en place d’un design responsive desktop, tablette et mobile."
+  },
+
+    {
+    "id": 6,
+    "title": "Site vitrine – Magasin de meubles et électroménager",
+    "image": "img/merlin.png",
+    "link": "Magasin/index.html",
+    "description": "Création d’un site web fictif présentant différents produits. L’objectif est de démontrer comment une interface claire et structurée peut faciliter la navigation et la mise en valeur d’un catalogue de produits."
+  },
+
+    {
+    "id": 7,
+    "title": "Site vitrine – Association de basketball",
+    "image": "img/kingz.png",
+    "link": "https://kingz-congo1.vercel.app/",
+    "description": "Première version d’un site vitrine développée lors d’un stage.Frontend réalisé avec React,backend avec Express.js, visant à présenter l’association et ses activités."
+  },
+
+      {
+    "id": 8,
+    "title": "Système d’authentification – React",
+    "image": "img/auth.png",
+    "link": "https://github.com/armadne/6_authentification_react_JS",
+    "description": "Développement d’un site d’authentification intégrant l’inscription, la connexion et la déconnexion des utilisateurs, avec gestion des états et des formulaires en React."
+  }
+
+]
