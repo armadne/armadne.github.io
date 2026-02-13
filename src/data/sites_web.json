@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
-    "title": "Sophie Bluel",
+    "title": "Sophie Bluel – Portfolio d’architecte d’intérieur",
     "image": "img/bluel.png",
     "link": "sophie-bluel/index.html",
-    "description": "Portfolio dynamique avec API REST, galerie filtrable, authentification admin."
+    "description": "Création d’une page web dynamique en JavaScript à partir d’une API REST. Mise en place d’une galerie de projets filtrable par catégories, génération dynamique du DOM, authentification administrateur et interface de gestion permettant l’ajout et la suppression de projets."
   },
   {
     "id": 2,
-    "title": "Nina Carducci",
+    "title": "Nina Carducci – Débogage et optimisation SEO",
     "image": "img/carducci.png",
     "link": "https://github.com/armadne/Nina-Carducci-Dev-master",
-    "description": "Optimisation SEO, performances, accessibilité et debugging JS."
+    "description": "Analyse et correction de bugs JavaScript, optimisation des performances (lazy loading, compression, accessibilité), amélioration du référencement naturel (SEO), audit avec Lighthouse et Wave, et correction des problèmes d’accessibilité (ARIA, contrastes, balises sémantiques)."
   },
   {
     "id": 3,
-    "title": "Kasa",
+    "title": "KASA – Application web de location immobilière",
     "image": "img/kasa.png",
     "link": "https://github.com/armadne/kasa",
-    "description": "Application React avec routing, composants interactifs et UX."
+    "description": "Développement d’une application web en React avec une architecture en composants. Mise en place du routing avec React Router, gestion des états, affichage dynamique des données, composants interactifs (carousel, collapse), et respect des contraintes UX/UI."
   },
 
       {
