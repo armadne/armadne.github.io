@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function Card({ title, image, description, link, pdf }) {
   return (
