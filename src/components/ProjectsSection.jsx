@@ -19,6 +19,10 @@ export default function ProjectsSection({ id, title, data }) {
             description={item.description}
             link={item.link}
             pdf={item.pdf}
+            
+resume={item.resume_write_up}
+level={item.level}
+
           />
         ))}
       </div>

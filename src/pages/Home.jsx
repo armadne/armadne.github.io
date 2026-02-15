@@ -6,10 +6,15 @@ import sitesWeb from "../data/sites_web.json";
 import python from "../data/projets_python.json";
 import embarque from "../data/projets_embarque.json";
 import certifications from "../data/certifications.json";
-// Si tu veux ajouter cyber plus tard, tu pourras le réactiver
-// import cyber from "../data/cybersecurite.json";
 
 import "../styles/style.css";
+
+import cyber from "../data/cybersecurite.json";
+
+const cyberArray = [
+  ...cyber["404CTF"].challenges,
+  ...cyber["TryHackMe"].rooms
+];
 
 export default function Home() {
   // Vérifier que les JSON sont bien chargés
@@ -42,18 +47,20 @@ export default function Home() {
           data={embarque}
         />
 
+             <ProjectsSection
+  id="cybersecurite"
+  title="Cybersécurité – CTF & TryHackMe"
+  data={cyberArray}
+/>
+
+
         <ProjectsSection
           id="certifications"
           title="Certifications"
           data={certifications}
         />
 
-        {/* Pour plus tard :
-        <ProjectsSection
-          id="cybersecurite"
-          title="Cybersecurité"
-          data={cyber}
-        /> */}
+ 
         
       </main>
     </>

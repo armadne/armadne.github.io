@@ -5,7 +5,7 @@
     "ranking": "547ᵉ sur 2 893 participants (top 20%)",
     "challenges": [
       {
-        "title": "OSINT",
+        "title": "OSINT - 404CTF",
         "image": "img/osint.png",
         "description": "Participation à 7 challenges OSINT axés sur l’investigation numérique.",
         "resume_write_up": [
@@ -19,7 +19,7 @@
         ]
       },
       {
-        "title": "Sécurité Web",
+        "title": "Sécurité Web - 404CTF",
         "image": "img/securite-web.png",
         "description": "Exploitation de vulnérabilités web dans un environnement contrôlé.",
         "resume_write_up": [
@@ -31,10 +31,11 @@
         "image": "img/forensique.png",
         "description": "Résolution d’un challenge d’analyse forensique portant sur l’exfiltration de données via un périphérique USB, à partir d’un fichier de capture réseau au format .pcapng. L’objectif était d’identifier, extraire puis reconstruire les données afin d’obtenir le flag.",
         "resume_write_up": [
-            "- Analyse réseau avec Wireshark</strong> — Ouverture du fichier .pcapng et application de filtres USB pour isoler les communications pertinentes.",
-            "- Identification des paquets URB Bulk OUT</strong> — Repérage des données utiles via 'Leftover Capture Data' afin de reconstituer le flux exfiltré.",
+            "- Analyse réseau avec Wireshark ",
+             "- Ouverture du fichier .pcapng et application de filtres USB pour isoler les communications pertinentes.",
+            "- Identification des paquets URB Bulk OUT et Repérage des données utiles via 'Leftover Capture Data' afin de reconstituer le flux exfiltré.",
             "- Extraction des données — Export du contenu récupéré au format binaire '.bin'.",
-            "- Conversion et interprétation — Transformation du binaire en texte lisible afin de révéler le flag.",
+            "- Conversion et interprétation du binaire en texte lisible afin de révéler le flag.",
             "Ce challenge m’a permis de mieux comprendre les techniques d’exfiltration de données, l’analyse de captures réseau et les bases de la forensique numérique, tout en renforçant ma rigueur méthodologique lors d’investigations techniques."
 
         ]
@@ -44,10 +45,10 @@
         "image": "img/securite-materielle.png",
         "description": "Challenge de sécurité matérielle visant à reconstruire un signal audio à partir d’un fichier IQ contenant des données complexes issues d’une transformée de Fourier. L’objectif était de traiter ces données numériques afin de reconstituer un fichier audio exploitable et révéler le flag.",
         "resume_write_up": [
-          "- Chargement et manipulation des données IQ</strong> — Import du fichier avec 'numpy' pour traiter les valeurs complexes.",
-          "- Application de l’IFFT — Utilisation de la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel.",
-          "- Normalisation et conversion audio</strong> — Mise à l’échelle des valeurs, conversion en 'int16' puis export du signal au format WAV",
-          "- Analyse du résultat</strong> — Écoute du signal reconstruit afin d’identifier le flag caché.",
+          "- Chargement et manipulation des données IQ, import du fichier avec 'numpy' pour traiter les valeurs complexes.",
+          "- Application de l’IFFT, utilisation de la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel.",
+          "- Normalisation et conversion audio, conversion en 'int16' puis export du signal au format WAV",
+          "- Analyse du résultat, écoute du signal reconstruit afin d’identifier le flag caché.",
           " Bien que guidé à environ 70% dans la démarche, j’ai pris soin de comprendre chaque étape du processus, ce qui m’a permis de consolider mes bases en traitement du signal, en manipulation de données complexes et en exploitation de fichiers issus de systèmes matériels."
         ]
       }
@@ -67,7 +68,7 @@
         "- utilisation protocole FTP pour récupérer un fichier 'à distance' task.txt, pour identifier un user",
        "- Brute-force SSH : outil utilisé: Hydra pour trouver un mot de passe",
        "- Connexion SSH : accès à l’utilisateur",
-       "- Privesc (Privilege Escalation) : <strong>sudo -l</strong> exécution autorisée de tar sans mot de passe",
+       "- Privesc (Privilege Escalation) : sudo -l exécution autorisée de tar sans mot de passe",
        "- Élévation de privilèges",
        "- Objectif final : lecture du flag root.txt"
         ]

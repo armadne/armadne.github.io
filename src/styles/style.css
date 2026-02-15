@@ -199,9 +199,30 @@ footer {
 }
 
 /* ===== Cybersec / CTF ===== */
+
+#cybersecurite img {
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
 #cybersecurite {
   padding: 4rem 2rem;
   background: whitesmoke;
+}
+
+#cybersecurite ul
+{
+  display: contents;
+}
+
+#cybersecurite p 
+{
+  font-weight: bold;
+
+}
+
+#cybersecurite li
+{
+  list-style-type: none;
 }
 
 .cyber-header {
