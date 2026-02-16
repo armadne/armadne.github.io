@@ -2,7 +2,7 @@ export default function Parcours() {
   return (
     <section>
       <h2 id="titre-parcours">
-        <strong>Parcours</strong>
+        À propos
       </h2>
 
       <p id="parcours">
