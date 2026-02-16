@@ -11,7 +11,9 @@ export default function Header() {
           <li><a href="#projets-python">Python</a></li>
           <li><a href="#embarque">Embarqué</a></li>
           <li><a href="#cybersecurite">Cybersécurité</a></li>
+          <li><a href="#competences">Compétences</a></li>
           <li><a href="#certifications">Certifications</a></li>
+
         </ul>
       </nav>
     </header>

@@ -174,14 +174,15 @@ footer {
 ===================== */
 
 #certifications .cards-grid {
-      grid-template-columns: repeat(auto-fit, minmax(400px, 332px));
-      gap: 60px;
-    justify-content: center;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap; /* responsive mobile */
 }
+
 
 #certifications .project {
   max-width: 580px;
-  
   padding: 14px;
 }
 
