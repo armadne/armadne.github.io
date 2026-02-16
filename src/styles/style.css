@@ -304,3 +304,11 @@ footer {
   height: 170px;
   object-fit: contain;
 }
+
+
+#competences ul 
+{
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+}

@@ -36,9 +36,6 @@
     "LED / buzzer",
     "Communication Wi-Fi",
     "Interface Flask embarquée",
-    "Python scientifique (numpy)",
-    "Traitement du signal (FFT / IFFT)",
-    "Conversion audio WAV",
     "Systèmes portables sur batterie"
   ],
 
@@ -55,9 +52,10 @@
     "Extraction de données USB",
     "Python scientifique",
     "Traitement du signal",
-    "Analyse hexadécimale",
+    "Analyse hexadécimale"
+  ],
 
-    "J’ai participé à 7 challenges OSINT, qui m’ont permis de développer mes compétences en investigation numérique, d’apprendre à utiliser différents outils et à élaborer des stratégies en situation réelle, souvent par improvisation",
+  "404CTF_explication_detaille" : ["J’ai participé à 7 challenges OSINT, qui m’ont permis de développer mes compétences en investigation numérique, d’apprendre à utiliser différents outils et à élaborer des stratégies en situation réelle, souvent par improvisation",
 
 
     "Pour le challenge 'JWT Falsification' de la catégorie 'sécurité web' : j'ai appris la gestion des rôles utilisateurs et des risques liés à une mauvaise sécurisation des tokens",
@@ -71,8 +69,7 @@
 
     "Pour le challenge 'Sécurité materielle' j'ai appris à utiliser la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel, et exporter le signal au format WAV pour écouter le signal reconstruit afin d’identifier le flag caché"
 
- 
-  ],
+],
 
 
 
@@ -93,8 +90,10 @@
     "SQL Injection",
     "Exploitation CMS",
     "sudo misconfiguration",
-    "Root compromise",
+    "Root compromise"
+  ],
 
+    "TryHackMe_explication_detaille" : [
     "Le CTF 'Bounty Hacker' m’a permis de développer une méthodologie complète de test d’intrusion en environnement Linux. J’ai appris à effectuer une phase de reconnaissance efficace à l’aide de Nmap afin d’identifier les ports ouverts et les services exposés sur une machine cible. L’exploitation du protocole FTP m’a ensuite permis de récupérer un fichier distant (<strong>task.txt</strong>), contenant des informations exploitables pour identifier un utilisateur valide. J’ai mis en œuvre une attaque de brute-force sur le service SSH à l’aide de l’outil <strong>Hydra</strong>, en utilisant une wordlist adaptée pour obtenir des identifiants valides. Une fois l’accès obtenu, j’ai pu me connecter au système via SSH et mener une phase de post-exploitation, incluant l’analyse des droits et des permissions utilisateurs. L’examen des privilèges avec la commande <strong>sudo -l</strong> m’a permis d’identifier une mauvaise configuration autorisant l’exécution de la commande <strong>tar</strong> sans mot de passe. L’exploitation de cette faille m’a conduit à une élévation de privilèges, aboutissant à l’obtention d’un accès root et à la lecture du fichier sensible 'root.txt', validant ainsi la compromission complète de la machine.",
 
     "Le CTF 'Basic Pentesting' m’a permis de mettre en pratique une méthodologie complète de pentesting, en commençant par l’analyse de la surface d’attaque à l’aide de Nmap afin d’identifier les services exposés. J’ai renforcé mes compétences en énumération web et réseau grâce à l’utilisation de Gobuster et d’enum4linux pour découvrir des répertoires cachés et des utilisateurs valides. J’ai ensuite mené une attaque de brute-force SSH avec Hydra et la wordlist rockyou.txt afin d’obtenir un accès initial au système. L’analyse post-exploitation avec linPEAS m’a permis d’identifier un vecteur d’élévation de privilèges via une clé privée SSH, que j’ai pu exploiter en cassant son chiffrement à l’aide de JohnTheRipper, consolidant ainsi mes compétences en escalade de privilèges et en gestion des identifiants.",

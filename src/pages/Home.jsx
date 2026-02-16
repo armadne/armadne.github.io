@@ -6,6 +6,13 @@ import sitesWeb from "../data/sites_web.json";
 import python from "../data/projets_python.json";
 import embarque from "../data/projets_embarque.json";
 import certifications from "../data/certifications.json";
+import competences from "../data/competences.json"
+
+const competencesArray = Object.entries(competences).map(([key, values]) => ({
+  title: key.replace("_", " ").toUpperCase(),
+  resume_write_up: values
+}));
+
 
 import "../styles/style.css";
 
@@ -51,6 +58,12 @@ export default function Home() {
   id="cybersecurite"
   title="Cybersécurité – CTF & TryHackMe"
   data={cyberArray}
+/>
+
+             <ProjectsSection
+  id="competences"
+  title="Compétences"
+  data={competencesArray}
 />
 
 

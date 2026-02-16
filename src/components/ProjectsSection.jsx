@@ -1,9 +1,9 @@
 
-import Card from "./Card"; // ⚠️ Très important : importer Card !
+import Card from "./Card"; 
 
 export default function ProjectsSection({ id, title, data }) {
   if (!data || data.length === 0) {
-    return null; // Pas de données, on ne rend rien
+    return null; //
   }
 
   return (
@@ -22,6 +22,7 @@ export default function ProjectsSection({ id, title, data }) {
             
 resume={item.resume_write_up}
 level={item.level}
+
 
           />
         ))}
