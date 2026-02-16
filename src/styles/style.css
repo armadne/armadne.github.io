@@ -312,7 +312,7 @@ footer {
 ================================ */
 
 #embarque .cards-grid {
-  grid-template-columns: repeat(auto-fit, minmax(340px, 500px));
+  display: flex;
   justify-content: center;
 }
 
