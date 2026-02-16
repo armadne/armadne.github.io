@@ -16,6 +16,27 @@ body {
   line-height: 1.6;
 }
 
+#titre-parcours {
+      display: flex;
+    flex-direction: column-reverse;
+    align-content: stretch;
+    align-items: center
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#parcours {
+  max-width: 900px;
+  text-align: center;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+
 button {
   margin-top: 1rem;
   padding: 0.5rem 1.5rem;

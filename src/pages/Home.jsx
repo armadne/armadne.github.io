@@ -7,6 +7,7 @@ import python from "../data/projets_python.json";
 import embarque from "../data/projets_embarque.json";
 import certifications from "../data/certifications.json";
 import competences from "../data/competences.json"
+import Parcours from "../components/Parcours";
 
 const competencesArray = Object.entries(competences).map(([key, values]) => ({
   title: key.replace("_", " ").toUpperCase(),
@@ -33,6 +34,8 @@ export default function Home() {
   return (
     <>
       <Header />
+
+      <Parcours/>
 
       <main className="container">
 
