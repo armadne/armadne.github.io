@@ -1,32 +1,51 @@
-
+import { useState } from "react";
 import Card from "./Card"; 
 
 export default function ProjectsSection({ id, title, data }) {
-  if (!data || data.length === 0) {
-    return null; //
+
+  const [showAllCyber, setShowAllCyber] = useState(false);
+  
+
+  if (!data || data.length === 0) return null;
+
+  const isCyber = id === "cybersecurite";
+ 
+
+  let visibleData = data;
+
+  if (isCyber && !showAllCyber) {
+    visibleData = data.slice(0, 3);
   }
+
 
   return (
     <section id={id} className="project">
+
       <h2>{title}</h2>
 
       <div className="cards-grid">
-        {data.map((item, index) => (
+        {visibleData.map((item, index) => (
           <Card
             key={item.id || index}
             title={item.title}
             image={item.image}
             description={item.description}
-            link={item.link}
-            pdf={item.pdf}
-            
-resume={item.resume_write_up}
-level={item.level}
-
-
+            resume={item.resume_write_up}
+            level={item.level}
           />
         ))}
       </div>
+
+      {/* CYBER BUTTON */}
+      {isCyber && (
+        <button
+          className="show-more"
+          onClick={() => setShowAllCyber(!showAllCyber)}
+        >
+          {showAllCyber ? "Afficher moins" : "Afficher plus"}
+        </button>
+      )}
+
     </section>
   );
 }
