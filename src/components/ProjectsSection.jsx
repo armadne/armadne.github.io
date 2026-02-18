@@ -32,6 +32,8 @@ export default function ProjectsSection({ id, title, data }) {
             description={item.description}
             resume={item.resume_write_up}
             level={item.level}
+            link={item.link}
+            link_certification={id}
           />
         ))}
       </div>

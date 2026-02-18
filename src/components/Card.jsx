@@ -1,4 +1,18 @@
-export default function Card({ title, image, description, resume, level }) {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+export default function Card({ 
+  title, 
+  image, 
+  description, 
+  resume, 
+  level, 
+  link,
+  link_certification
+}) {
+
+  const isCertification = link_certification === "certifications";
+
   return (
     <article className="project">
 
@@ -16,6 +30,22 @@ export default function Card({ title, image, description, resume, level }) {
             <li key={i}>{line}</li>
           ))}
         </ul>
+      )}
+
+      {link && (
+        <a 
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {isCertification ? (
+            "Voir certification"
+          ) : (
+            <>
+              <FontAwesomeIcon icon={faGithub} /> Voir sur GitHub
+            </>
+          )}
+        </a>
       )}
 
     </article>

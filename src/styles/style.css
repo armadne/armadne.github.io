@@ -159,6 +159,10 @@ footer {
   text-align: center;
 }
 
+
+
+
+
 /* ===== Certifications ===== */
 #certifications {
   display: flex;
@@ -169,17 +173,25 @@ footer {
     flex-direction: column;
 }
 
-#certifications .ctf-card:hover {
-  scrollbar-width: none;
-  
+
+/* Désactiver hover card uniquement pour Certifications */
+#certifications .project:hover {
+  transform: none;
+  box-shadow: none;
 }
+
+/* Garder hover image */
+#certifications .project:hover img {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+
 
 #certifications .cards-grid {
   display: flex;
   gap: 60px;
-  justify-content: center;
-  flex-wrap: wrap; 
-  
+  justify-content: center; 
 }
 
 
@@ -365,4 +377,22 @@ footer {
 
 .show-more:hover {
   opacity: 0.8;
+}
+
+
+.certification-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  background-color: #1d4ed8;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.certification-btn:hover {
+  background-color: #0b3aa7;
+  transform: translateY(-2px);
 }
