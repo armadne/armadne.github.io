@@ -425,7 +425,7 @@ a:hover
 
     /* CERTIFICATIONS */
   #certifications .cards-grid {
-    flex-direction: column;   /* 1 colonne */
+    flex-direction: column;  
     align-items: center;
     gap: 30px;
   }
@@ -452,10 +452,4 @@ a:hover
   }
 
 }
-
-
-/* ===========================
-   MOBILE FIX CERTIFICATIONS
-=========================== */
-
 
