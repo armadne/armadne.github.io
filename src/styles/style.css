@@ -65,13 +65,16 @@ textarea {
 }
 
 .nav-list a {
+  position: relative;
   text-decoration: none;
   color: #000;
   font-weight: 600;
 }
 
+
 .nav-list a:hover {
   color: #1d4ed8;
+  text-decoration: underline;
 }
 
 /* ===== Sections ===== */
@@ -404,3 +407,55 @@ a:hover
   background-color: #0b3aa7;
   transform: translateY(-2px);
 }
+
+
+@media (max-width: 768px) {
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .nav-list a:hover
+  {
+    padding: 0 100px;
+    border: 1px solid black;
+  }
+
+    /* CERTIFICATIONS */
+  #certifications .cards-grid {
+    flex-direction: column;   /* 1 colonne */
+    align-items: center;
+    gap: 30px;
+  }
+
+  #certifications .project {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #certifications .project img {
+    height: auto;
+    max-height: 250px;
+  }
+
+  /* SYSTEMES EMBARQUES */
+  #embarque .cards-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #embarque .project {
+    max-width: 100%;
+    width: 100%;
+  }
+
+}
+
+
+/* ===========================
+   MOBILE FIX CERTIFICATIONS
+=========================== */
+
+
