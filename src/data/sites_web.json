@@ -57,7 +57,7 @@
       {
     "id": 8,
     "title": "Système d’authentification – React",
-    "image": "assets/auth.webp",
+    "image": "../assets/auth.webp",
     "link": "https://github.com/armadne/6_authentification_react_JS",
     "description": "Développement d’un site d’authentification intégrant l’inscription, la connexion et la déconnexion des utilisateurs, avec gestion des états et des formulaires en React."
   }
