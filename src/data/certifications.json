@@ -4,8 +4,8 @@
     "id": 1,
     "title": "Dévelopement web avec Flask",
     "description": " Certification AlisonFreeCourse — Création d’applications web avec Flask : routing, templates Jinja, formulaires, gestion des données et bases du backend Python.",
-    "image": "assets/certifications/diplome-flask.webp",
-    "link": "assets/certifications/diplome_flask.pdf"
+    "image": "images/certifications/diplome-flask.webp",
+    "link": "images/certifications/diplome_flask.pdf"
     
   },
 
@@ -13,16 +13,16 @@
     "id": 2,
     "title": "Python – Des fondamentaux aux concepts avancés",
     "description": "Certification France Université Numérique — Bases Python, structures de données, POO, fichiers et automatisation.",
-    "image": "assets/certifications/certif-python-img.webp",
-    "link": "assets/certifications/certif-python.pdf"
+    "image": "images/certifications/certif-python-img.webp",
+    "link": "images/certifications/certif-python.pdf"
   },
 
     {
     "id": 3,
     "title": "Fondamentaux des réseaux informatiques",
     "description": "Certification France Université Numérique — Bases Python, structures de données, POO, fichiers et automatisation.",
-    "image": "assets/certifications/ipv6-certif.webp",
-    "link": "assets/certifications/ipv6-certif.pdf"
+    "image": "images/certifications/ipv6-certif.webp",
+    "link": "images/certifications/ipv6-certif.pdf"
   }
 
 

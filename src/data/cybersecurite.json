@@ -6,7 +6,7 @@
     "challenges": [
       {
         "title": "OSINT - 404CTF",
-        "image": "img/osint.webp",
+        "image": "images/osint.webp",
         "description": "Participation à 7 challenges OSINT axés sur l’investigation numérique.",
         "resume_write_up": [
         "Recherche d’informations sur les réseaux sociaux",
@@ -20,7 +20,7 @@
       },
       {
         "title": "Sécurité Web - 404CTF",
-        "image": "img/securite-web.webp",
+        "image": "images/securite-web.webp",
         "description": "Exploitation de vulnérabilités web dans un environnement contrôlé.",
         "resume_write_up": [
           "JWT Falsification — Analyse et manipulation de jetons JSON Web Token afin de contourner l’authentification. J’ai exploité une mauvaise configuration de la vérification de signature pour modifier le payload et usurper des privilèges.",
@@ -28,7 +28,7 @@
           "Ces challenges m’ont permis de renforcer ma compréhension du backend web, des erreurs de configuration courantes et de l’impact concret des mauvaises pratiques de sécurité sur la protection des données et la gestion des accès."]},
       {
         "title": "Analyse Forensique – 404CTF",
-        "image": "img/forensique.webp",
+        "image": "images/forensique.webp",
         "description": "Résolution d’un challenge d’analyse forensique portant sur l’exfiltration de données via un périphérique USB, à partir d’un fichier de capture réseau au format .pcapng. L’objectif était d’identifier, extraire puis reconstruire les données afin d’obtenir le flag.",
         "resume_write_up": [
             "Analyse réseau avec Wireshark ",
@@ -42,7 +42,7 @@
       },
       {
         "title": "Sécurité Matérielle – 404CTF",
-        "image": "img/securite-materielle.webp",
+        "image": "images/securite-materielle.webp",
         "description": "Challenge de sécurité matérielle visant à reconstruire un signal audio à partir d’un fichier IQ contenant des données complexes issues d’une transformée de Fourier. L’objectif était de traiter ces données numériques afin de reconstituer un fichier audio exploitable et révéler le flag.",
         "resume_write_up": [
           "Chargement et manipulation des données IQ, import du fichier avec 'numpy' pour traiter les valeurs complexes.",
@@ -61,7 +61,7 @@
     "rooms": [
       {
         "title": "Bounty Hacker",
-        "image": "img/bounty-hck.webp",
+        "image": "images/bounty-hck.webp",
         "level": "Facile",
         "resume_write_up": [
         "Reconnaissance : Scan Nmap",
@@ -75,7 +75,7 @@
       },
       {
         "title": "Basic Pentesting",
-        "image": "img/basic.webp",
+        "image": "images/basic.webp",
         "level": "Facile",
         "resume_write_up": [
         "Reconnaissance : Scan Nmap pour identifier les services actifs (HTTP, SSH, SMB)",
@@ -90,7 +90,7 @@
       },
       {
         "title": "RootMe",
-        "image": "img/rootme.webp",
+        "image": "images/rootme.webp",
         "level": "Facile",
         "resume_write_up": [
         "Reconnaissance : Scan Nmap pour détecter les ports ouverts (HTTP, SSH) et les versions des services",
@@ -104,7 +104,7 @@
       },
       {
         "title": "Simple CTF",
-        "image": "img/simple-ctf.webp",
+        "image": "images/simple-ctf.webp",
         "level": "Facile",
         "resume_write_up": [
             "Reconnaissance : Scan Nmap pour détecter les ports ouverts (FTP, HTTP) et les versions des services exposés",
