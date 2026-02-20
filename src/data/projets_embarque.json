@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Système de détection de présence connecté (ESP32)",
-    "image": "assets/motion-detector-esp32.webp",
+    "image": "images/motion-detector-esp32.webp",
     "link" : "https://github.com/armadne/ESP32-FLASK-WEBSITE-MOTION-DETECTION-MAIN",
     "description" : " Réalisation d’un système de détection utilisant un ESP32, un capteur PIR et un capteur ultrasonique. Lorsqu’une présence est détectée, une LED et un buzzer s’activent. Une interface web développée avec Flask permet d’afficher l’état du système en temps réel via le Wi-Fi. Le projet est portable grâce à une alimentation par batterie externe."
   }
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Détecteur de luminosité portable (Arduino)",
-    "image": "assets/light-detector.webp",
+    "image": "images/light-detector.webp",
     "link" : "1detecteur_luminosit_/1detecteur_luminosit_.ino",
     "description": "Conception d’un détecteur de luminosité portable utilisant un Arduino. Le système contrôle des LED et un buzzer en fonction de l’intensité de la lumière ambiante, permettant de visualiser et signaler les variations de luminosité."
   }
