@@ -8,7 +8,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        LinkedIn
+        Contactez-moi via LinkedIn
       </a>
     </footer>
   );

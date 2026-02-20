@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import ProjectsSection from "../components/ProjectsSection";
+import Footer from "../components/Footer"
 
 import sitesWeb from "../data/sites_web.json";
 import python from "../data/projets_python.json";
@@ -77,6 +78,7 @@ export default function Home() {
         />
 
  
+ <Footer />
         
       </main>
     </>
