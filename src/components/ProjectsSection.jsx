@@ -38,7 +38,7 @@ export default function ProjectsSection({ id, title, data }) {
         ))}
       </div>
 
-      {/* CYBER BUTTON */}
+      
       {isCyber && (
         <button
           className="show-more"
