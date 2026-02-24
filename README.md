@@ -77,11 +77,11 @@ https://armadne.github.io
 
 
 src/
- ├── components/
- ├── pages/
- ├── data/
- ├── assets/
- └── styles/
+components/
+pages/
+data/
+assets/
+styles/
 
 
 Les projets sont générés dynamiquement à partir de fichiers JSON.
@@ -105,8 +105,3 @@ Ce portfolio reflète :
 * Ma polyvalence (Web / Python / Cyber / Systèmes)
 * Ma capacité à structurer un projet professionnel
 * Mon intérêt pour la cybersécurité et la compréhension des systèmes
-
-
-
-```
-```
