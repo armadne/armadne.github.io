@@ -25,7 +25,7 @@
   {
     "id": 3,
     "title": "Script d'automatisation",
-    "image": "images/itineraire-bot.webp",
+    "image": "images/script-auto-mail.webp",
     "link" : "https://github.com/armadne/easy_check_with_phone_number",
     "description": "Développement d'un script automatisé pour envoyer des notifications SMS à mon téléphone lors de la réception d'un e-mail, en utilisant les conseils et l'assistance de ChatGPT (Python, Tulio, ExchangeLib, PushBullet) (EN COURS)"
   }
