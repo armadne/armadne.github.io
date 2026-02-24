@@ -49,7 +49,7 @@ npm run build
 
 
 
-## 🌍 Déploiement GitHub Pages
+## Déploiement GitHub Pages
 
 Si le script deploy est configuré :
 
@@ -63,7 +63,7 @@ Le site sera accessible via :
 https://armadne.github.io
 ---
 
-# 🛠 Stack Technique
+# Stack Technique
 
 * React
 * Vite
@@ -73,7 +73,7 @@ https://armadne.github.io
 
 ---
 
-# 🏗 Architecture du projet
+# Architecture du projet
 
 
 src/
