@@ -1,16 +1,71 @@
-# React + Vite
+# 🚀 Portfolio – Développement Web, Cyber Sécurité & Systèmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 À propos
 
-Currently, two official plugins are available:
+Ce projet est mon portfolio professionnel développé avec **React** et **Vite**.  
+Il présente mes projets en développement web, Python, cybersécurité offensive et systèmes embarqués, ainsi que mes certifications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+L’objectif est de proposer une vitrine technique claire, moderne et évolutive mettant en valeur mes compétences et ma progression.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Stack Technique
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Sass
+- FontAwesome
+- Git & GitHub
+- GitHub Pages (déploiement)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🏗 Architecture
+
+Le projet est structuré de manière modulaire :
+
+- `components/` → Composants réutilisables (Card, Header, Sections…)
+- `pages/` → Pages principales
+- `data/` → Fichiers JSON contenant les projets
+- `styles/` → Fichiers Sass/CSS
+
+Les projets sont générés dynamiquement à partir de fichiers JSON, ce qui permet d’ajouter facilement du contenu sans modifier la logique principale.
+
+---
+
+## 🔐 Sections du Portfolio
+
+- 💻 **Sites Web** : Projets front-end développés en React / JavaScript
+- 🐍 **Projets Python** : Scripts et projets orientés logique et automatisation
+- ⚙️ **Systèmes Embarqués** : Projets orientés bas niveau et compréhension hardware/software
+- 🔐 **Cyber Offensif** : Projets de tests d’intrusion (énumération, exploitation, escalade de privilèges)
+- 🎓 **Certifications**
+
+---
+
+## 🎨 Design & UX
+
+- Interface sobre et professionnelle
+- Responsive design (desktop / mobile)
+- Composants réutilisables
+- Structure HTML sémantique
+- Hiérarchie visuelle claire
+
+---
+
+## ⚡ Performance
+
+- Build optimisé via Vite
+- Dossier `dist/` généré pour la production
+- Images optimisées
+- Structure légère et modulaire
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/ton-username/portfolio.git
+cd portfolio
+npm install
+npm run dev
