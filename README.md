@@ -1,16 +1,107 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Portfolio – Développement Web, Cyber Sécurité & Systèmes
 
-Currently, two official plugins are available:
+##  Présentation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet est mon portfolio professionnel développé avec **React** et **Vite**.  
+Il met en avant mes projets en développement web, Python, cybersécurité offensive, systèmes embarqués ainsi que mes certifications.
 
-## React Compiler
+L’objectif est de proposer une vitrine technique claire, moderne et évolutive reflétant ma progression et mes compétences.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+#  Installation et Lancement
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 1. Cloner le repository
+
+git clone https://github.com/ton-username/portfolio.git
+cd portfolio
+
+
+---
+
+## 2. Installer les dépendances
+
+npm install
+
+
+---
+
+## 3. Lancer le serveur en développement
+
+
+npm run dev
+
+
+Le projet démarre sur :
+
+
+http://localhost:5173
+
+
+---
+
+##  Build Production
+
+Pour générer la version optimisée :
+
+
+npm run build
+
+
+
+## Déploiement GitHub Pages
+
+Si le script deploy est configuré :
+
+
+npm run deploy
+
+
+Le site sera accessible via :
+
+
+https://armadne.github.io
+---
+
+# Stack Technique
+
+* React
+* Vite
+* Sass
+* FontAwesome
+* GitHub Pages (hébergement)
+
+---
+
+# Architecture du projet
+
+
+src/
+components/
+pages/
+data/
+assets/
+styles/
+
+
+Les projets sont générés dynamiquement à partir de fichiers JSON.
+
+
+#  Sections du Portfolio
+
+*  Sites Web
+*  Projets Python
+*  Systèmes Embarqués
+*  Cyber Offensif
+*  Certifications
+
+---
+
+#  Objectif
+
+Ce portfolio reflète :
+
+* Ma montée en compétence technique
+* Ma polyvalence (Web / Python / Cyber / Systèmes)
+* Ma capacité à structurer un projet professionnel
+* Mon intérêt pour la cybersécurité et la compréhension des systèmes
