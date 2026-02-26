@@ -26,11 +26,6 @@ const cyberArray = [
 ];
 
 export default function Home() {
-  // Vérifier que les JSON sont bien chargés
-  //console.log("Sites Web:", sitesWeb);
-  //console.log("Python:", python);
-  //console.log("Embarqué:", embarque);
-  //console.log("Certifications:", certifications);
 
   return (
     <>
