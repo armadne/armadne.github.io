@@ -4,7 +4,7 @@
     "title": "Bot Google Maps",
     "image": "images/itineraire-bot.webp",
     "link" : "https://github.com/armadne/Tour-Eiffel/tree/main/bot_eiffel",
-    "description" : "Le script il ouvre Google Maps, recherche un lieu spécifique (ici « La Tour Eiffel ») clique sur le bouton d’itinéraire, et interagit avec l’interface pour afficher les options de trajet."
+    "description" : "Le script ouvre Google Maps, recherche un lieu spécifique clique sur le bouton d’itinéraire, et interagit avec l’interface pour afficher les options de trajet."
   }
 ,
 
