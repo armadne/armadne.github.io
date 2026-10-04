@@ -9,13 +9,13 @@
     
   },
 
-  {
-    "id": 2,
-    "title": "Python – Des fondamentaux aux concepts avancés",
-    "description": "Certification France Université Numérique — Bases Python, structures de données, POO, fichiers et automatisation.",
-    "image": "images/certifications/certif-python-img.webp",
-    "link": "images/certifications/certif-python.pdf"
-  },
+{
+  "id": 2,
+  "title": "Diplôme – Développeur informatique",
+  "description": "Diplôme OpenClassrooms — Formation en développement informatique couvrant la programmation, le développement web, les bases de données, Git et la conception d’applications.",
+  "image": "images/certifications/diplome-developpeur-informatique-img.webp",
+  "link": "images/certifications/diplome-developpeur-informatique.pdf"
+},
 
     {
     "id": 3,
