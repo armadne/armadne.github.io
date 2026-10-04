@@ -6,15 +6,17 @@ export default function Parcours() {
       </h2>
 
       <p id="parcours">
-Bonjour, je m'appelle Madane AROUL, développeur web Full-Stack passionné par la sécurité informatique.<br/>
 
-Après une licence LEA (anglais-espagnol et commerce), je me suis reconverti vers le développement web, fasciné par la logique derrière les applications et la création de solutions sécurisées.<br/>
+        Bonjour, je m'appelle Madane AROUL, développeur orienté cybersécurité et conception de systèmes embarqués.<br/>
 
-Je maîtrise HTML, CSS, JavaScript et React, avec une spécialisation en Front-End et sécurité offensive, et je perfectionne mes compétences à travers des projets pratiques et des environnements comme TryHackMe.<br/>
+Après une licence LEA (anglais-espagnol et commerce), je me suis reconverti dans l'informatique avec une première formation en développement informatique, puis une formation en administration systèmes, réseaux et cybersécurité.<br/>
 
-Mon approche combine autonomie, curiosité et rigueur, car je crois qu’un développement web efficace et sécurisé passe par une compréhension fine des technologies.<br/>
+Je m'intéresse particulièrement à la conception et au développement de systèmes embarqués, avec une approche orientée cybersécurité.<br/>
 
-Mon objectif est d’intégrer une équipe technique dynamique pour continuer à progresser, contribuer à des projets concrets et approfondir mes compétences en programmation et pentesting.
+Mon approche repose sur la pratique, l'expérimentation, l'autonomie et la compréhension technique : concevoir un système, comprendre son architecture, l'implémenter, puis analyser et renforcer sa sécurité.<br/>
+
+Mon objectif est de continuer à développer mes compétences en cybersécurité et en systèmes embarqués afin de concevoir des solutions techniques concrètes, sécurisées et adaptées à des environnements exigeants.
+
 </p>
 
 
