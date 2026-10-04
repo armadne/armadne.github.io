@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Système de détection de présence et de mouvement (ESP32 + LD2450)",
-    "image": "detection-mouv-proj.webp",
+    "image": "images2/bjorn.webp",
     "link": "https://github.com/armadne/SYS-EMB-LD2450-ESP32-EN_COURS",
     "description": "Conception d’un système de détection utilisant un ESP32 et un capteur radar LD2450. Mise en place d’une machine virtuelle avec Home Assistant, installation et configuration d’ESPHome, communication entre l’ESP32 et Home Assistant et création de plusieurs indicateurs de présence et de mouvement. Le système permet également l’envoi d’alertes de détection via Telegram. Rapport disponible sur demande."
   },
