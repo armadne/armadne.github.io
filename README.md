@@ -14,7 +14,7 @@ L’objectif est de proposer une vitrine technique claire, moderne et évolutive
 ## 1. Cloner le repository
 
 git clone https://github.com/ton-username/portfolio.git
-cd portfolio
+cd portfolio (donc cd armadne.github.io)
 
 
 ---
