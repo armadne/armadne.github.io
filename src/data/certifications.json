@@ -11,9 +11,10 @@
 
 {
   "id": 2,
-  "title": "Diplôme – Développeur informatique",
+  "title": "Diplôme Développeur informatique",
   "description": "Diplôme OpenClassrooms — Formation en développement informatique couvrant la programmation, le développement web, les bases de données, Git et la conception d’applications.",
-  "image": "images/certifications/diplome-oc-dev.webp"
+  "image": "images/certifications/diplome-oc-dev.webp",
+  "link": "images/certifications/OC-DEV-DIPLOME.pdf"
 },
 
     {
